@@ -1,0 +1,24 @@
+#wrapper {  
+  background-image: url(../../images/noisy-texture-100x100-o11-d19-c-dde0eb-t0.png);  
+  background-color: #cfcfcf;  
+} 
+@media screen and (max-width: 1680px){
+	h1 {
+	    font-size: 3.4em;
+	}
+}
+body, input, select, textarea{
+	font-family: "微软雅黑", "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p,
+#menu ul a.opener, #menu ul span.opener,
+#header .logo{
+	font-family: "微软雅黑", "Roboto Slab", serif !important;
+	font-weight: normal;
+}
+#menu ul a, #menu ul span{
+	font-size: 1.0em;
+}
+#menu > ul > li > ul a, #menu > ul > li > ul span{
+	font-size: 1.0em;
+}
