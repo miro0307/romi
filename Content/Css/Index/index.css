@@ -26,3 +26,12 @@ h1, h2, h3, h4, h5, h6, p,
 #menu > ul > li > ul a, #menu > ul > li > ul span {
   font-size: 1.0em;
 }
+
+.features article .icon:before {
+  z-index: 999;
+}
+
+.features article .icon:after {
+  z-index: 1;
+  background-color: #fff;
+}
